@@ -76,10 +76,27 @@ p {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-name: albumGlow;
+  animation-name: imageGlow;
 }
 
-@keyframes albumGlow {
+.profilePic {
+  width: 300px;
+  height: 400px;
+  border-radius: 6px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px 0px rgb(255, 255, 255);
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: imageGlow;
+}
+
+.profilePic:active {
+  transition-duration: 0.1s;
+  opacity: 0.6;
+}
+
+@keyframes imageGlow {
   0% {
     box-shadow: 0px 0px 6px 0px rgb(255, 255, 255);
   }
