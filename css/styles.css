@@ -247,6 +247,12 @@ footer:hover {
   color: red;
 }
 
+.merchItems {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 @media all and (max-width: 1000px) {
   .navBar {
     margin-left: 0;
