@@ -205,19 +205,13 @@ p {
 
 footer {
   background-color: rgb(6, 6, 6);
-  color: whitesmoke;
+  color: red;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-footer:hover {
-  transition-duration: 0.8s;
-  color: rgb(250, 0, 0);
 }
 
 .firstSongAudioPlayer {
