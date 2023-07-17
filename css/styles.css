@@ -206,12 +206,7 @@ p {
 footer {
   background-color: rgb(6, 6, 6);
   color: red;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  margin-top: 25px;
 }
 
 .firstSongAudioPlayer {
