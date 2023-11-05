@@ -203,6 +203,54 @@ p {
   background-color: rgb(40, 40, 40);
 }
 
+.emailIcon {
+  border-radius: 6px;
+  padding: 2px;
+  width: 60px;
+  height: 60px;
+}
+
+.emailIcon:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(40, 40, 40);
+}
+
+.instagramIcon {
+  border-radius: 6px;
+  padding: 4px;
+  width: 55px;
+  height: 55px;
+}
+
+.instagramIcon:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(40, 40, 40);
+}
+
+.facebookIcon {
+  border-radius: 6px;
+  padding: 4px;
+  width: 55px;
+  height: 55px;
+}
+
+.facebookIcon:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(40, 40, 40);
+}
+
+.twitterIcon {
+  border-radius: 6px;
+  padding: 4px;
+  width: 55px;
+  height: 55px;
+}
+
+.twitterIcon:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(40, 40, 40);
+}
+
 footer {
   background-color: rgb(6, 6, 6);
   color: red;
@@ -251,10 +299,6 @@ footer {
 
 .firstSongLink:hover {
   color: rgb(230, 0, 0);
-}
-
-.emailLink {
-  color: red;
 }
 
 .merchItems {
