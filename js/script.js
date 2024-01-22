@@ -20,5 +20,5 @@ function imageSlideshow() {
 
   setTimeout(function() {
     imageSlideshow();
-  }, 7000);
+  }, 10000);
 }
