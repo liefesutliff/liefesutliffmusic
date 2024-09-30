@@ -19,7 +19,7 @@ function preloadImages() {
     "images/spotify_144.png",
     "images/twitterIcon.png",
     "images/ui.jpg",
-    "images/youtube_144.png",
+    "images/youtube_144.png"
   ];
 
   imageList.forEach(function(imageUrl) {
