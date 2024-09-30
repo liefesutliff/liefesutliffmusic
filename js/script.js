@@ -1,10 +1,31 @@
 window.onload = function() {
-  imageSlideshow();
+  preloadImages(); // Preload images before starting the slideshow
+  setTimeout(imageSlideshow, 5000);
 };
 
-function toggleAudioPlayer() {
-  var audioPlayer = document.querySelector('.firstSongAudioPlayer');
-  audioPlayer.classList.toggle('show');
+function preloadImages() {
+  const imageList = [
+    "images/amazon_music_144.png",
+    "images/appleMusic_144.png",
+    "images/deezer_144.png",
+    "images/emailIcon.png",
+    "images/facebookIcon.png",
+    "images/instagramIcon.png",
+    "images/logo.png",
+    "images/profilePic1.jpg",
+    "images/profilePic2.jpg",
+    "images/profilePic3.jpg",
+    "images/soundcloud_144.png",
+    "images/spotify_144.png",
+    "images/twitterIcon.png",
+    "images/ui.jpg",
+    "images/youtube_144.png",
+  ];
+
+  imageList.forEach(function(imageUrl) {
+    const img = new Image();
+    img.src = imageUrl;
+  });
 }
 
 function imageSlideshow() {
@@ -18,7 +39,5 @@ function imageSlideshow() {
     image.src = "images/profilePic1.jpg";
   }
 
-  setTimeout(function() {
-    imageSlideshow();
-  }, 10000);
+  setTimeout(imageSlideshow, 5000);
 }
