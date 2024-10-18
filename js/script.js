@@ -1,6 +1,13 @@
+let currentIndex = 0; // Initialize the current index
+let images = [
+  "images/profilePic1.jpg",
+  "images/profilePic2.jpg",
+  "images/profilePic3.jpg"
+]; // List of images to cycle through
+
 window.onload = function() {
-  preloadImages(); // Preload images before starting the slideshow
-  setTimeout(imageSlideshow, 5000);
+  preloadImages(); // Preload images
+  startSlideshow(); // Start slideshow
 };
 
 function preloadImages() {
@@ -28,16 +35,14 @@ function preloadImages() {
   });
 }
 
-function imageSlideshow() {
-  var image = document.querySelector('.profilePic');
-
-  if (image.src.includes("images/profilePic1.jpg")) {
-    image.src = "images/profilePic2.jpg";
-  } else if (image.src.includes("images/profilePic2.jpg")) {
-    image.src = "images/profilePic3.jpg";
-  } else {
-    image.src = "images/profilePic1.jpg";
-  }
-
-  setTimeout(imageSlideshow, 5000);
+function startSlideshow() {
+  setInterval(changeImage, 5000); // Change image every 5 seconds
 }
+
+function changeImage() {
+  currentIndex = (currentIndex + 1) % images.length; // Cycle through images
+  document.querySelector('.profilePic').src = images[currentIndex]; // Update the image source
+}
+
+// Manual cycling through images on click
+document.querySelector('.profilePic').onclick = changeImage;
