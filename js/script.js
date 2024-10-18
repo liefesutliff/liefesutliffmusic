@@ -25,7 +25,7 @@ function preloadImages() {
     "images/soundcloud_144.png",
     "images/spotify_144.png",
     "images/twitterIcon.png",
-    "images/ui.jpg",
+    "images/theFinalDrive.png",
     "images/youtube_144.png"
   ];
 
