@@ -251,7 +251,7 @@ footer {
   font-size: 30px;
 }
 
-.firstSongAudioPlayer {
+/* .firstSongAudioPlayer {
   height: 0px;
   overflow: hidden;
   transition: height 0.5s ease-in-out;
@@ -259,7 +259,7 @@ footer {
 
 .firstSongAudioPlayer.show {
   height: 55px;
-}
+} */
 
 /* Adds a music visualizer */
 /* audio {
@@ -285,15 +285,15 @@ footer {
 } */
 /* Adds a music visualizer */
 
-.firstSongLink {
+/* .firstSongLink {
   color: rgb(255, 0, 0);
   text-decoration: underline;
   cursor: pointer;
-}
+} */
 
-.firstSongLink:hover {
+/* .firstSongLink:hover {
   color: rgb(230, 0, 0);
-}
+} */
 
 .merchItems {
   display: flex;

@@ -44,10 +44,10 @@ function changeImage() {
   document.querySelector('.profilePic').src = images[currentIndex]; // Update the image source
 }
 
-function toggleAudioPlayer() {
-  var audioPlayer = document.querySelector('.firstSongAudioPlayer');
-  audioPlayer.classList.toggle('show');
-}
+// function toggleAudioPlayer() {
+//   var audioPlayer = document.querySelector('.firstSongAudioPlayer');
+//   audioPlayer.classList.toggle('show');
+// }
 
 // Manual cycling through images on click
 document.querySelector('.profilePic').onclick = changeImage;
