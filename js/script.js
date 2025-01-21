@@ -25,8 +25,8 @@ function preloadImages() {
     "images/soundcloud_144.png",
     "images/spotify_144.png",
     "images/twitterIcon.png",
-    "images/theFinalDrive.png",
-    "images/youtube_144.png"
+    "images/youtube_144.png",
+    "images/daydreamAlbum.jpg"
   ];
 
   imageList.forEach(function(imageUrl) {
