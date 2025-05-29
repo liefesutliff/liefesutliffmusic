@@ -29,6 +29,10 @@ h1 {
   font-size: 75px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 body {
   background: linear-gradient(rgb(150, 0, 0), rgb(50, 0, 0));
 }

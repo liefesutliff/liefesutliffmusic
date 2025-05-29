@@ -26,7 +26,7 @@ function preloadImages() {
     "images/spotify_144.png",
     "images/twitterIcon.png",
     "images/youtube_144.png",
-    "images/love.jpg"
+    "images/fever.jpg"
   ];
 
   imageList.forEach(function(imageUrl) {
