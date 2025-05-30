@@ -10,23 +10,29 @@
   <title>LSM - Music</title>
 </head>
 <body>
-  <div class="navBar">
-    <a href="index.html">Home</a>
-    <a class="active" href="music.html">Music</a>
-    <!-- <a href="merch.html">Merch</a> -->
-    <a href="contact.html">Contact</a>
-  </div>
+  <nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+    <button class="toggle-btn" id="menu-toggle">&#9776;</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="music.html">Music</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
   <br>
   <div class="content">
     <h1><u>Music</u></h1>
     <p><a href="https://distrokid.com/hyperfollow/liefesutliff/fever" target="_blank" class="presaveLink">Pre-save</a> Fever!</p>
     <!-- Make sure to update preload image list in Javascript -->
-    <div><a href="https://distrokid.com/hyperfollow/liefesutliff/fever" target="_blank"><img src="images/fever.jpg" alt="Daydream Art" class="newReleasePic"></a></div><br><br><br><br>
+    <div><a href="https://distrokid.com/hyperfollow/liefesutliff/fever" target="_blank"><img src="images/fever.jpg" alt="Daydream Art" class="newReleasePic"></a></div><br><br>
     <!-- Make sure to update preload image list in Javascript -->
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3VgnMuJgUszjJm4zXVKXWo?utm_source=generator&theme=0" width="800px" height="730" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <h2>My Albums:</h2>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0vZfMv4sNlw0yOdOGET07L?utm_source=generator" width="800px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0caMTmbKIrrmSOanwpsgET?utm_source=generator" width="800px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br>
+     <h2>Latest Release:</h2>
+     <iframe class="spotifySmallWidget" src="https://open.spotify.com/embed/track/0joew1WujuHywv1c2lfd2t?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br><br>
+    <h2>Albums:</h2>
+    <iframe class="spotifySmallWidget" src="https://open.spotify.com/embed/album/0vZfMv4sNlw0yOdOGET07L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br>
+    <iframe class="spotifySmallWidget" src="https://open.spotify.com/embed/album/0caMTmbKIrrmSOanwpsgET?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br><br>
+    <h2>Top Tracks:</h2>
+    <iframe class="spotifyLargeWidget" src="https://open.spotify.com/embed/artist/3VgnMuJgUszjJm4zXVKXWo?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br>
     <p>Want to listen to all my music?</p>
     <div class="icons">
       <a href="https://www.youtube.com/channel/UCmkZ4uh43VEuZVOQKCcWOnw" target="_blank"><img class="youtubeIcon" src="images/youtube_144.png" alt="Youtube icon linking to Liefe Sutliff's YouTube channel"></a>&nbsp;&nbsp;
