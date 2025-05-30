@@ -96,7 +96,7 @@ p {
 }
 
 .content {
-  background-color: rgb(6, 6, 6);
+  background-color: black;
   color: whitesmoke;
   text-align: center;
   border-radius: 6px;
@@ -204,7 +204,7 @@ p {
 }
 
 footer {
-  background-color: rgb(6, 6, 6);
+  background-color: black;
   color: red;
   margin-top: 25px;
   font-size: 30px;
@@ -244,15 +244,15 @@ footer {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px;
-    right: 2rem;
-    background-color: #222;
-    padding: 1rem;
-    border-radius: 8px;
+    top: 103px;
+    right: 8px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 0px 0px 8px 8px;
   }
 
-  .nav-links li {
-    padding: 10px;
+  .nav-links li a {
+    padding: 20px 100px 20px 10px;
   }
 
   .nav-links.active {
