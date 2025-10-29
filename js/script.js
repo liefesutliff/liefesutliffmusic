@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "images/spotify_144.png",
       "images/twitterIcon.png",
       "images/youtube_144.png",
-      "images/fever.jpg"
+      "images/release.jpg"
     ];
 
     imageList.forEach(function(imageUrl) {
